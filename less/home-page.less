@@ -87,11 +87,12 @@
       }
     }
     button {
-      .custom-btn(rgb(64, 139, 224), 200px, white);
+      .custom-btn(@silver, 200px, white);
       font-size: @btn-font-size;
       border-radius: 7px;
-      @media mobile {
-        width: 100%;
+      @media @mobile {
+        width: 250px;
+        border-radius: 5px;
         padding: 10px 30px;
       }
     }
